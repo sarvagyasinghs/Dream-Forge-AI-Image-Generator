@@ -1,0 +1,132 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Header styles */
+  .header {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .header span {
+    color: #DE1B89;
+  }
+  
+  /* Image styles */
+  .img-loading {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .image img {
+    max-width: 100%;
+    border-radius: 10px; /* Soft corners */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3); /* Shadow effect */
+  }
+  
+  /* Footer styles */
+  .footer {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .search-box {
+    display: flex;
+    width: 1000px;
+    height: 95px;
+    max-width: 800px; /* Adjust max-width as needed */
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px; /* Adjust margin-top as needed */
+    border-radius: 50px;
+    background: #1F3540;
+    
+  }
+  
+  .search-input {
+    width: 600px;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: white;
+    padding-left: 35px;
+    padding-right: 35px;
+
+}
+  
+  .generate-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 85px;
+    font-size: 20px;
+    border-radius: 50px;
+    background: #DE1B89;
+    cursor: pointer;
+  }
+  
+  .generate-btn:hover {
+    background-color: #aa156e;
+  }
+  
+  .search-box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .image img {
+    max-width: 100%;
+    border-radius: 10px; /* Soft corners */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3); /* Shadow effect */
+    transition: transform 0.3s ease-in-out; /* Smooth transition */
+  }
+  
+  .image img:hover {
+    transform: scale(1.05); /* Scale up slightly on hover */
+  }
+
+  .search-input::placeholder{
+    color: #999;
+  }
+
+  .loading-bar{
+    width: 0px;
+    height: 8px;
+    color: #DE1B89;
+  }
+
+  .loading-text{
+    font-size: 18px;
+  }
+  
+  
